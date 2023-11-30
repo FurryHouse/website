@@ -1,11 +1,28 @@
 body {
-	margin: 40px auto;
-	max-width: 650px;
 	line-height: 1.6;
 	font-size: 18px;
 	color: #444;
-	padding: 0 10px
 }
 h1, h2, h3 {
 	line-height: 1.2
+}
+
+div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#marqueetxt {
+	font-weight: bold;
+	text-align: center;
+}
+
+a {
+	color: purple;
+}
+
+#title {
+	text-align: center;
 }
